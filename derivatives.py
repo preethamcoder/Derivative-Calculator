@@ -20,4 +20,4 @@ def g(x):
 print("The derivative of " + str(g(x)) + " with respect to " +diff_var+" is: ")
 xa = str(sym.diff(g(x), diff_var))
 orderivative = xa.replace("**", "^")
-print(orderivative)
+print(orderivative.replace("**", "^"))
