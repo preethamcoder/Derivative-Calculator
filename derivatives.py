@@ -9,7 +9,7 @@ print("Welcome to the DERIVATIVE calculator. This calculator is capable of diffe
 print("Enter the function you want to differentiate along the differentiating variable!")
 aba = input("Function now:\n")
 diff_var = input("Variable now:\n")
-abc = aba.replace("^", "**").replace("sin", "sym.sin").replace("cos", "sym.cos").replace("ln", "sym.ln").replace("log", "sym.log")
+abc = aba.replace("^", "**").replace("sin", "sym.sin").replace("cos", "sym.cos").replace("ln", "sym.ln").replace("log", "sym.log").replace("tan", "sym.tan").replace("csc", "sym.csc").replace("sec", "sym.sec").replace("cot", "sym.cot")
 def g(x):
     func = eval(abc)
     return func
